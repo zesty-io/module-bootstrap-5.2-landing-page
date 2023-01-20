@@ -1,0 +1,18 @@
+
+  - id: "2614-5def-44fa"
+    web:
+      metaDescription: ""
+      metaTitle: "Homepage"
+      metaLinkText: "Homepage"
+      metaKeywords: null
+      pathPart: "zesty_home"
+      path: "/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data: {}
