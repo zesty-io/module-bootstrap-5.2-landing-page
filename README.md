@@ -145,10 +145,7 @@ Email Sign up consist of headers, text and email sign up.
  
   <img src="https://user-images.githubusercontent.com/55866499/213773787-7d90889e-a922-4ac5-9411-11eccbc531b5.png" width="100%" height="300">
  
-
- 
-
- 
+ You may set email addresses on the fields where you want to: send to, reply to, email recipient and secret code for **Honeypot**. Honeypot will automatically activated when the textfield have value. Once activated, it will help to detect bots in submitting forms automatically. See here for more info about honeypot: https://zesty.org/tools/guides/how-to-prevent-bots-from-submitting-your-form#setting-up-the-honeypot
  
  
 
