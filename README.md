@@ -6,7 +6,7 @@ This Bootstrap module is powered by zesty and can be used as a landing page and 
 
 Each sections can be modified and input content based on the user desire. Under **Zesty Project Manger** Just click **Content** -> **Module Modern Business**
 
-![image](https://user-images.githubusercontent.com/55866499/213695574-02fb862b-4b0b-4886-879a-c3ff9ad10d0c.png)
+<img src="https://user-images.githubusercontent.com/55866499/213695574-02fb862b-4b0b-4886-879a-c3ff9ad10d0c.png" width="500" height="300">
 
 <br>
 <br>
