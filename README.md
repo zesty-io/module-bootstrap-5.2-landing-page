@@ -1,6 +1,6 @@
-# **Modern Business Module** 
+# **Modern Business Module**
 
- [Live Demo](https://modernbusinessmodule.zesty.dev/module-modern-business/) 
+[Live Demo](https://modernbusinessmodule.zesty.dev/module-modern-business/)
 
 This Bootstrap module is powered by zesty and can be used as a landing page and it has _**hero section with image sliders**_, _**feature details**_, _**testimonials**_ and _**email sign up**_.
 
@@ -13,8 +13,9 @@ Each sections can be modified and input content based on the user desire. Under 
 <br>
 <br>
 
-> __Warning__
-##  **Please take note that using this module will also automatically install Bootstrap 5.1.3. Meaning it will affect the styling of the whole content of the instance** 
+> **Warning**
+
+## **Please take note that using this module will also automatically install Bootstrap 5.1.3. Meaning it will affect the styling of the whole content of the instance**
 
 <br>
 <br>
@@ -22,7 +23,6 @@ Each sections can be modified and input content based on the user desire. Under 
 <br>
 
 ## 1. Hero Section
-
 
 <img src="https://user-images.githubusercontent.com/55866499/213691049-113e0578-332a-4b86-8329-4963cce890a8.png" width="100%" height="300">
 
@@ -34,8 +34,8 @@ The Hero section has Headers and text with interesting image sliders.
 
 <img src="https://user-images.githubusercontent.com/55866499/213694990-d80c66e5-8a84-407f-abb2-e001fcb1e191.png" width="100%" height="300">
 
- Hero section headers and description contents can be customized on the content tab
- 
+Hero section headers and description contents can be customized on the content tab
+
 <br>
 
 ### <sub>1.2 Hero Image Sliders </sub>
@@ -137,7 +137,7 @@ Email Sign up consist of headers, text and email sign up.
  
  <img src="https://user-images.githubusercontent.com/55866499/213773291-957e4509-0cb2-4454-ba29-34048b16119e.png" width="100%" height="300">
  
- All of the submitted emails are being recorded from the **Leads panel**.
+ All of the submitted emails are being recorded from the **Leads panel**. Click [here](https://zesty.org/services/manager-ui/leads) for more information about Leads.
  
  <br>
  
@@ -146,13 +146,3 @@ Email Sign up consist of headers, text and email sign up.
   <img src="https://user-images.githubusercontent.com/55866499/213773787-7d90889e-a922-4ac5-9411-11eccbc531b5.png" width="100%" height="300">
  
  You may set email addresses on the fields with functions upon submitting forms such as: send to, reply to, email recipient and you can also include secret code for **Honeypot**. Honeypot will automatically be activated when the textfield have value. Once activated, it will help to detect bots in submitting forms automatically. See here for more info about honeypot: https://zesty.org/tools/guides/how-to-prevent-bots-from-submitting-your-form#setting-up-the-honeypot
- 
- 
-
-
-
-
-
-
-
-

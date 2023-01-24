@@ -234,7 +234,7 @@
   - referenceName: "nav-transition-type"
     name: "Navigation Transition Type"
     sort: 1
-    type: "transition_type"
+    type: "text"
     value: "ease"
     description: null
     category: 4
@@ -442,7 +442,7 @@
   - referenceName: "subnav-link-weight"
     name: "Subnav Link Weight"
     sort: 1
-    type: "font_weight"
+    type: "text"
     value: "normal"
     description: "NULL"
     category: 5
@@ -578,7 +578,7 @@
   - referenceName: "paragraph-font-weight"
     name: "Paragraph Font Weight"
     sort: 6
-    type: "font_weight"
+    type: "text"
     value: "normal"
     description: "NULL"
     category: 2
@@ -642,7 +642,7 @@
   - referenceName: "body-bg-image"
     name: "Body Background Image"
     sort: 10
-    type: "image"
+    type: "text"
     value: null
     description: "Optional background image for the body of your website."
     category: 1
@@ -770,7 +770,7 @@
   - referenceName: "h2-f4dbbae88e-hm9csg"
     name: "H2 Font Weight"
     sort: 17
-    type: "font_weight"
+    type: "text"
     value: "bold"
     description: "NULL"
     category: 2
@@ -826,7 +826,7 @@
   - referenceName: "h3-f890bde88e-r5q84g"
     name: "H3 Font Weight"
     sort: 22
-    type: "font_weight"
+    type: "text"
     value: "bold"
     description: "NULL"
     category: 2
@@ -874,7 +874,7 @@
   - referenceName: "h4-f6e6bfe88e-pf41vt"
     name: "H4 Font Weight"
     sort: 27
-    type: "font_weight"
+    type: "text"
     value: "bold"
     description: "NULL"
     category: 2
@@ -919,14 +919,6 @@
     description: null
     category: 2
     options: null
-  - referenceName: "h5-88b397e79a-5zlt0z"
-    name: "H5 Font Weight"
-    sort: 32
-    type: "font_weight"
-    value: "bold"
-    description: "NULL"
-    category: 2
-    options: null
   - referenceName: "h6-font-color"
     name: "H6 Font Color"
     sort: 35
@@ -951,20 +943,20 @@
     description: null
     category: 2
     options: null
+  - referenceName: "h6-f2abc7e88e-lgjjsf"
+    name: "H6 Font Weight"
+    sort: 37
+    type: "text"
+    value: "bold"
+    description: "NULL"
+    category: 2
+    options: null
   - referenceName: "h6-9088f7e78e-tglgk1"
     name: "H6 Margin Bottom"
     sort: 37
     type: "text"
     value: "8px"
     description: null
-    category: 2
-    options: null
-  - referenceName: "h6-f2abc7e88e-lgjjsf"
-    name: "H6 Font Weight"
-    sort: 37
-    type: "font_weight"
-    value: "bold"
-    description: "NULL"
     category: 2
     options: null
   - referenceName: "blockquote-font-color"

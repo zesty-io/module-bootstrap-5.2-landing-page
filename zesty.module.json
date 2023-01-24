@@ -1,7 +1,6 @@
 {
   "name": "Modern-Business-Module",
   "schema": "schema.yaml",
-  "head-tags": "head-tags.yaml",
-  "style-variables": "style-variables.yaml",
-  "apps": ["80-d8abaff6ef-wxs830"]
+  "settings": "settings.yaml",
+  "head-tags": "head-tags.yaml"
 }

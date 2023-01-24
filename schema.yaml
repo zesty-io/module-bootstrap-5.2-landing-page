@@ -1,34 +1,5 @@
 
   - description: null
-    label: "Globals"
-    name: "clippings"
-    sort: 1
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: null
-    content: "/content/clippings.yaml"
-    fields:
-      - name: "site_name"
-        label: "Site Name"
-        description: null
-        datatype: "text"
-        sort: 1
-        required: true
-        relationship: null
-        settings:
-          options: {}
-      - name: "logo"
-        label: "Site Logo"
-        description: null
-        datatype: "images"
-        sort: 2
-        required: null
-        relationship: null
-        settings:
-          limit: 1
-          options: {}
-  - description: null
     label: "Homepage"
     name: "homepage"
     sort: 1
@@ -39,10 +10,41 @@
     view: "/views/homepage.tpl"
     content: "/content/homepage.yaml"
     fields: []
-  - description: ""
+  - description: null
+    label: "Globals"
+    name: "clippings"
+    sort: 2
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/clippings.yaml"
+    fields:
+      - name: "site_name"
+        label: "Site Name"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options: {}
+      - name: "logo"
+        label: "Site Logo"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          limit: 1
+          list: true
+          options: {}
+  - description: null
     label: "Module Modern Business"
     name: "module_modern_business"
-    sort: 100
+    sort: 4
     listed: true
     hasRoute: true
     showAsTable: false
@@ -72,7 +74,7 @@
         label: "Feature Header"
         description: ""
         datatype: "text"
-        sort: 8
+        sort: 7
         required: false
         relationship: null
         settings:
@@ -81,7 +83,7 @@
         label: "Testimonial Text"
         description: ""
         datatype: "textarea"
-        sort: 9
+        sort: 8
         required: false
         relationship: null
         settings:
@@ -104,29 +106,11 @@
         relationship: null
         settings:
           list: true
-      - name: "blog_header"
-        label: "Blog Header"
-        description: ""
-        datatype: "text"
-        sort: 12
-        required: false
-        relationship: null
-        settings:
-          list: true
-      - name: "blog_text"
-        label: "Blog Text"
-        description: ""
-        datatype: "textarea"
-        sort: 13
-        required: false
-        relationship: null
-        settings:
-          list: true
       - name: "call_to_action_header"
         label: "Call To Action Header"
         description: ""
         datatype: "text"
-        sort: 14
+        sort: 12
         required: false
         relationship: null
         settings:
@@ -135,7 +119,7 @@
         label: "Call To Action Text"
         description: ""
         datatype: "textarea"
-        sort: 15
+        sort: 13
         required: false
         relationship: null
         settings:
@@ -144,7 +128,7 @@
         label: "Author Image"
         description: ""
         datatype: "images"
-        sort: 16
+        sort: 9
         required: false
         relationship: null
         settings:
@@ -153,7 +137,7 @@
         label: "Multi Images"
         description: ""
         datatype: "images"
-        sort: 6
+        sort: 2
         required: false
         relationship: null
         settings:
@@ -163,7 +147,7 @@
         label: "Hero Button Text 1"
         description: ""
         datatype: "text"
-        sort: 2
+        sort: 4
         required: false
         relationship: null
         settings:
@@ -172,7 +156,7 @@
         label: "Hero Button Text 2"
         description: ""
         datatype: "text"
-        sort: 4
+        sort: 5
         required: false
         relationship: null
         settings:
@@ -181,11 +165,11 @@
         label: "Thank You Text"
         description: ""
         datatype: "text"
-        sort: 17
+        sort: 14
         required: false
         relationship: null
         settings:
-          list: false
+          list: true
       - name: "hero_button_link_1"
         label: "Hero Button Link 1"
         description: ""
@@ -199,15 +183,15 @@
         label: "Hero Button Link 2"
         description: ""
         datatype: "link"
-        sort: 5
+        sort: 6
         required: false
         relationship: null
         settings:
           list: true
-  - description: ""
+  - description: null
     label: "Feature item"
     name: "feature_item"
-    sort: 108
+    sort: 6
     listed: true
     hasRoute: false
     showAsTable: false
@@ -218,7 +202,7 @@
         label: "Feature Title"
         description: ""
         datatype: "text"
-        sort: 10000
+        sort: 1
         required: false
         relationship: null
         settings:
@@ -227,7 +211,7 @@
         label: "Feature Text"
         description: ""
         datatype: "textarea"
-        sort: 10000
+        sort: 2
         required: false
         relationship: null
         settings:
@@ -236,7 +220,7 @@
         label: "Feature Icons"
         description: ""
         datatype: "dropdown"
-        sort: 10000
+        sort: 3
         required: false
         relationship: null
         settings:
@@ -256,7 +240,7 @@
         label: "Feature Sort"
         description: ""
         datatype: "sort"
-        sort: 10000
+        sort: 4
         required: false
         relationship: null
         settings:

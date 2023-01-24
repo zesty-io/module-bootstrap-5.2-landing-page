@@ -92,7 +92,7 @@
   - category: "contact-form"
     key: "sending_email"
     keyFriendly: "Sending Email"
-    value: "bryan.estevez@zesty.io"
+    value: ""
     admin: null
     parsleyAccess: null
     dataType: "text"
@@ -101,7 +101,7 @@
   - category: "contact-form"
     key: "recipients"
     keyFriendly: "Email Recipients"
-    value: "bryan.estevez@zesty.io"
+    value: ""
     admin: null
     parsleyAccess: null
     dataType: "text"
@@ -110,7 +110,7 @@
   - category: "contact-form"
     key: "reply_email"
     keyFriendly: "Reply Email"
-    value: "bryan.estevez@zesty.io"
+    value: ""
     admin: false
     parsleyAccess: null
     dataType: "text"
@@ -245,7 +245,7 @@
   - category: "contact-form"
     key: "honeypot"
     keyFriendly: "Form Honey Pot"
-    value: "robot-is-not-allowed"
+    value: ""
     admin: false
     parsleyAccess: null
     dataType: "text"

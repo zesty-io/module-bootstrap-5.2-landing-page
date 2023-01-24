@@ -27,11 +27,21 @@
                                 <!-- Slider Images Iteration-->
                                 <div class="carousel-inner">
                                     {{each media.{this.multi_images} as slide}}
-                                    <div class="carousel-item {{if {slide._num} == 1}}active {{end-if}} ">
-                                        <img class="d-block w-100" height="380" width="100%" src="{{slide.image.getImage()}}"
-                                        alt="{{slide.image.getImageTitle()}}"
-                                        />
-                                    </div>
+                                         {{if {slide._length} > 1 }}  <!-- Check if the content is array-->
+                                            <!-- Iterates the images -->                                     
+                                            <div class="carousel-item {{if {slide._num} == 1}}active {{end-if}} ">
+                                                <img class="d-block w-100" height="300" width="100%" src="{{slide.image.getImage()}}"
+                                                alt="{{slide.image.getImageTitle()}}"
+                                                />
+                                            </div>
+                                        {{else}}
+                                            <!-- Displays a static image placeholder once the content is a url only-->
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" height="380" width="100%" src= "https://0ksjtj3x.media.zestyio.com/600x40.png"
+                                                alt="600x900 placeholder"
+                                                />
+                                            </div>
+                                        {{/if}}  
                                     {{/each}}                 
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls"

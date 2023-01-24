@@ -1,5 +1,5 @@
 
-  - id: "0caf-e14a-8b77"
+  - id: "ab60-6d0f-797d"
     web:
       metaDescription: ""
       metaTitle: "Module Modern Business"
@@ -18,8 +18,6 @@
     data:
       author_image: "https://0ksjtj3x.media.zestyio.com/CEO.png"
       author_job: "CEO, Zesty"
-      blog_header: "Check out from our blogss"
-      blog_text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad."
       call_to_action_header: "New products, delivered to you."
       call_to_action_text: "Sign up for our newsletter for the latest updates."
       feature_header: "More interesting designs to feature."
@@ -33,37 +31,3 @@
       testimonial_author: "Randy Apuzzo"
       testimonial_text: "\"Working with Zesty modules has saved me tons of development time when building new projects! Starting with a zesty module design just makes things easier!\""
       thank_you_text: "Thank you, your email has been sent!"
-  - id: "f1de-bd91-26bc"
-    web:
-      metaDescription: ""
-      metaTitle: "Bryan's header"
-      metaLinkText: "Bryan's header"
-      metaKeywords: null
-      pathPart: "bryans-header"
-      path: "/bryans-header/"
-      sitemapPriority: -1
-      canonicalTagMode: 1
-      canonicalQueryParamWhitelist: null
-      canonicalTagCustomValue: null
-      parent: "/"
-    meta:
-      sort: 107
-      listed: true
-    data:
-      author_image: null
-      author_job: null
-      blog_header: null
-      blog_text: null
-      call_to_action_header: null
-      call_to_action_text: null
-      feature_header: null
-      hero_button_link_1: null
-      hero_button_link_2: null
-      hero_button_text_1: null
-      hero_button_text_2: null
-      hero_section_description: null
-      hero_section_header: "Bryan's header"
-      multi_images: null
-      testimonial_author: null
-      testimonial_text: null
-      thank_you_text: null
