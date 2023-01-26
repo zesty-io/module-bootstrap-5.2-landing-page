@@ -1,3 +1,0 @@
-<div className={styles.pvlRoot}>
-	{{include module_modern_business }}
-</div>
