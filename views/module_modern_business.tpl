@@ -97,7 +97,7 @@
                             <div class="text-center">
                                 <div class="fs-4 mb-4 fst-italic">{{this.testimonial_text}}</div>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <img class="rounded-circle me-3" src="{{module_modern_business.first().author_image.getImage(80,80)}}" alt="..." />
+                                    <img class="rounded-circle me-3" src="{{module_modern_business.first().author_image.getImage()}}?width=80" alt="..." />
                                     <div class="fw-bold">
                                        {{this.testimonial_author}}
                                         <span class="fw-bold text-primary mx-1">/</span>
