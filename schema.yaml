@@ -1,47 +1,4 @@
-
-  - description: null
-    label: "Homepage"
-    name: "homepage"
-    sort: 1
-    listed: true
-    hasRoute: true
-    showAsTable: false
-    parent: null
-    view: "/views/homepage.tpl"
-    content: "/content/homepage.yaml"
-    fields: []
-  - description: null
-    label: "Globals"
-    name: "clippings"
-    sort: 2
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: null
-    content: "/content/clippings.yaml"
-    fields:
-      - name: "site_name"
-        label: "Site Name"
-        description: ""
-        datatype: "text"
-        sort: 1
-        required: false
-        relationship: null
-        settings:
-          list: true
-          options: {}
-      - name: "logo"
-        label: "Site Logo"
-        description: ""
-        datatype: "images"
-        sort: 2
-        required: false
-        relationship: null
-        settings:
-          limit: 1
-          list: true
-          options: {}
-  - description: null
+    - description: null
     label: "Module Modern Business"
     name: "module_modern_business"
     sort: 4
