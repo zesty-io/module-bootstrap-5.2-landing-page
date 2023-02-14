@@ -27,21 +27,12 @@
                                 <!-- Slider Images Iteration-->
                                 <div class="carousel-inner">
                                     {{each media.{this.multi_images} as slide}}
-                                         {{if {slide._length} > 0 }}  <!-- Check if the content is array-->
                                             <!-- Iterates the images -->                                     
                                             <div class="carousel-item {{if {slide._num} == 1}}active {{end-if}} ">
                                                 <img class="d-block w-100" height="300" width="100%" src="{{slide.image.getImage()}}"
                                                 alt="{{slide.image.getImageTitle()}}"
                                                 />
                                             </div>
-                                        {{else}}
-                                            <!-- Displays a static image placeholder once the content is a url only-->
-                                            <div class="carousel-item active">
-                                                <img class="d-block w-100" height="380" width="100%" src= "https://0ksjtj3x.media.zestyio.com/600x40.png"
-                                                alt="600x900 placeholder"
-                                                />
-                                            </div>
-                                        {{/if}}  
                                     {{/each}}                 
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls"
@@ -97,7 +88,7 @@
                             <div class="text-center">
                                 <div class="fs-4 mb-4 fst-italic">{{this.testimonial_text}}</div>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <img class="rounded-circle me-3" src="{{module_modern_business.first().author_image.getImage()}}?width=80" alt="..." />
+                                    <img class="rounded-circle me-3" src="{{module_modern_business.first().author_image.getImage(80,80)}}" alt="..." />
                                     <div class="fw-bold">
                                        {{this.testimonial_author}}
                                         <span class="fw-bold text-primary mx-1">/</span>
