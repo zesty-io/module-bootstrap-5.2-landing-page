@@ -19,7 +19,7 @@
                                 </div>
                             </div>
                         </div>
-
+                            {{if {this.multi_images} }}
                         <!-- Start of Silder / Carousel-->
                         <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
@@ -51,8 +51,9 @@
                                 ></span>
                                 </a>
                             </div>
-
                         </div>
+                        
+                        {{/if }}
                     </div>
                 </div>
             </header>
