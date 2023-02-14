@@ -27,7 +27,7 @@
                                 <!-- Slider Images Iteration-->
                                 <div class="carousel-inner">
                                     {{each media.{this.multi_images} as slide}}
-                                         {{if {slide._length} > 1 }}  <!-- Check if the content is array-->
+                                         {{if {slide._length} > 0 }}  <!-- Check if the content is array-->
                                             <!-- Iterates the images -->                                     
                                             <div class="carousel-item {{if {slide._num} == 1}}active {{end-if}} ">
                                                 <img class="d-block w-100" height="300" width="100%" src="{{slide.image.getImage()}}"
