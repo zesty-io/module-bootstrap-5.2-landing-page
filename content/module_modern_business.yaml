@@ -26,7 +26,7 @@
     hero_button_text_2: "Learn More"
     hero_section_description: "Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!"
     hero_section_header: "Check out this modern business template "
-    multi_images: "https://0ksjtj3x.media.zestyio.com/600x40.png"
+    multi_images: null
     testimonial_author: "Randy Apuzzo"
     testimonial_text: '"Working with Zesty modules has saved me tons of development time when building new projects! Starting with a zesty module design just makes things easier!"'
     thank_you_text: "Thank you, your email has been sent!"
