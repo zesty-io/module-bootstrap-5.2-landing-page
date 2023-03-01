@@ -2,5 +2,8 @@
   "name": "Modern-Business-Module",
   "schema": "schema.yaml",
   "settings": "settings.yaml",
-  "head-tags": "head-tags.yaml"
+  "head-tags": "head-tags.yaml",
+  "modules": [
+  "https://github.com/zesty-io/module-bootstrap5"
+  ]
 }
